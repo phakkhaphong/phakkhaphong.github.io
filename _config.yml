@@ -1,0 +1,7 @@
+title: "วิทยากรด้าน Data"
+description: "Data Analysts / Data Engineers | Microsoft SQL Server, Azure, Power BI, Fabric"
+baseurl: ""
+url: "https://your-username.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
