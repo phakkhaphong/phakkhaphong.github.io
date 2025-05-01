@@ -10,6 +10,25 @@ url: "https://phakkhaphong.github.io/jekyll_training_repo"
 
 theme: jekyll-theme-cayman
 
+collections:
+  courses:
+    output: true
+    permalink: /:collection/:path/
+
+navigation:
+  - title: "หน้าแรก"
+    url: "/"
+  - title: "Microsoft SQL Server"
+    url: "/courses/sql-server"
+  - title: "Azure Database"
+    url: "/courses/azure-database"
+  - title: "Microsoft Fabric"
+    url: "/courses/fabric"
+  - title: "Power BI"
+    url: "/courses/power-bi"
+  - title: "Azure Machine Learning"
+    url: "/courses/azure-ml"
+
 markdown: kramdown
 kramdown:
   input: GFM
