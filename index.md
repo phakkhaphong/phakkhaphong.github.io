@@ -1,18 +1,25 @@
 ---
-layout: home
-title: "สวัสดีครับ"
+layout: default
+title: หน้าหลัก
 ---
 
-<img src="/assets/images/profile.jpg" alt="profile photo" width="150" style="border-radius: 50%;" />
+# Source Codes ประกอบการอบรม
 
-## แนะนำตัว
+ยินดีต้อนรับสู่เว็บไซต์รวมตัวอย่างโค้ดและไฟล์ประกอบการอบรมสำหรับหลักสูตร Microsoft Technologies โดย **Phakkhaphong Krittawat**
 
-ผมคือวิทยากรผู้เชี่ยวชาญด้าน **Data Analytics และ Data Engineering**
+## หัวข้ออบรม
 
-เชี่ยวชาญเทคโนโลยีจาก Microsoft เช่น:
+- [Microsoft SQL Server](courses/sql-server.md)
+  - Tables and Indexes Structures
+  - Performance Tuning
+  - SQL Queries
+  - BI using SSIS, SSAS
+- [Microsoft Azure Database](courses/azure-database.md)
+- [Microsoft Fabric](courses/fabric.md)
+- [Microsoft Power BI](courses/power-bi.md)
+- [Microsoft Azure Machine Learning](courses/azure-ml.md)
 
-- Microsoft SQL Server และ Azure SQL Database
-- Microsoft Fabric
-- Power BI
-
-📧 ติดต่อ: [your.email@example.com](mailto:your.email@example.com)
+## ตัวอย่าง Lab และ Code
+- [SQL Performance Lab](../examples/sql-performance.sql)
+- [Power BI Model Example](../examples/powerbi-model.pbix)
+- [Azure ML Notebook](../examples/azureml-train.ipynb)

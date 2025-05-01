@@ -1,7 +1,25 @@
-title: "วิทยากรด้าน Data"
-description: "Data Analysts / Data Engineers | Microsoft SQL Server, Azure, Power BI, Fabric"
-baseurl: ""
-url: "https://your-username.github.io"
-theme: minima
+title: "Source Codes ประกอบการอบรม"
+description: >
+  แหล่งรวมโค้ดและเอกสารประกอบการอบรมเชิงปฏิบัติการ
+  ครอบคลุมเทคโนโลยีของ Microsoft สำหรับ Data & AI
+  โดยวิทยากรผู้เชี่ยวชาญ Phakkhaphong Krittawat
+author: "Phakkhaphong Krittawat"
+email: "phakkhaphong@msn.com"
+baseurl: "" 
+url: "https://phakkhaphong.github.io/jekyll_training_repo"
+
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# สำหรับ GitHub Pages
 plugins:
   - jekyll-feed
+
+include:
+  - _pages
+  - _courses
+  - assets/
+  - examples/
